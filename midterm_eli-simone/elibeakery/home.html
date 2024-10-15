@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Bakery - Home</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #f8f0e3;
+            background-image: url('6v7zIh.jpg'); /* Ensure the correct path */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            color: #333;
+        }
+
+        header {
+            background-color: rgba(255, 209, 220, 0.397); /* Semi-transparent background for header */
+            padding: 20px;
+            text-align: right; /* Align header content to the left */
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: right; /* Align navigation to the left */
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ff809f;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.6); /* Make background semi-transparent */
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .welcome-section {
+            background-color: #ffffff46;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(100, 98, 98, 0.1);
+        }
+
+        footer {
+            background-color: rgba(255, 209, 220, 0.8); /* Semi-transparent background for footer */
+            text-align: center;
+            padding: 19px;
+            margin-top: 210px;
+        }
+
+        footer p {
+            color: #000000;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="service.html">Service</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+<br><br><br>
+    <center>
+        <h1>Welcome to John's Bakery</h1>
+    </center>
+<br><br><br>
+    <div class="container">
+        <div class="welcome-section">
+            <h2>Welcome to John's Bakery</h2>
+            <p>We specialize in custom cakes for all your special occasions. Whether you’re celebrating a birthday, wedding, or any event, we have a cake for you. Browse our services to place your custom order or check out our bakery hours to visit us in-store.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; John's Bakery.</p>
+    </footer>
+
+    <script>
+            window.onload = function () {
+            let result = confirm("Hello Ms. Zemmary, Welcome to John's Bakery \n Do you want to proceed?");    
+            if (result) {
+            alert("Okay , let's proceed");  
+            } else {
+            alert("Edi wag HAHAHAHA");
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
